@@ -5,7 +5,7 @@ html,
     box-sizing: border-box;
     margin:0;
     padding:0;
-    background-color: cyan;
+    background-color: orange;
 }
 .card{
     width:27%;
@@ -35,5 +35,5 @@ html,
  justify-content: space-around;
  width: 80vw;
  align-items: center;
- background-color: brown;
+ background-color: yellow;
 }
