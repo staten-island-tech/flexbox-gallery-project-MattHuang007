@@ -5,7 +5,7 @@ html,
     box-sizing: border-box;
     margin:0;
     padding:0;
-    background-color: orange;
+    background-color: #FFA500;
     font-family: "martian mono";
 }
 .card{
@@ -17,18 +17,18 @@ html,
     align-items: center;
     justify-content: space-around;
     margin:1.5rem 2;
-    box-shadow: 7px 7px 7px black;
+    box-shadow: 7px 7px 7px #000000;
 }
 .card-image{
     width:100%;
 }
 .card-title{
     font-size: 2.2rem;
-    background-color: burlywood;
+    text-decoration-color: #deb887;
 }
 .card-descrip{
     font-size: 2rem;
-    background-color: burlywood;
+    background-color: #deb887;
 }
 .container{
     display: flex;
@@ -41,4 +41,9 @@ html,
 .header{
     text-align: center;
     font-size: 40px;
+    background-color: #F9e29c ; 
+    margin: 2% 20%;
+    border-radius: 6px;
+    padding: 1%  ;
+    box-shadow: 7px 7px 7px #000000;
 }
