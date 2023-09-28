@@ -19,8 +19,9 @@ html,
     margin:1.5rem 2;
     box-shadow: 7px 7px 7px #000000;
 }
-.card-image{
-    width:100%;
+.cardimage{
+    width:65%;
+    height:65%;
 }
 .card-title{
     font-size: 2.2rem;
