@@ -5,18 +5,18 @@ html,
     box-sizing: border-box;
     margin:0;
     padding:0;
-    background-color: #FFA500;
+    background-color: #960018;
     font-family: "martian mono";
 }
 .card{
     width:23%;
     height:30vh;
-    background-color: #Fce205;
+    background-color: #59515e;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin:1.5rem 2;
+    margin:1.3rem 3;
     box-shadow: 7px 7px 7px #000000;
 }
 .cardimage{
@@ -24,12 +24,12 @@ html,
     height:65%;
 }
 .card-title{
-    font-size: 2.2rem;
-    background-color: #deb887;
+    font-size: 1.7rem;
+    background-color: #59515e;
 }
 .card-descrip{
-    font-size: 2rem;
-    background-color: #deb887;
+    font-size: 1.7rem;
+    background-color: #59515e;
 }
 .container{
     display: flex;
