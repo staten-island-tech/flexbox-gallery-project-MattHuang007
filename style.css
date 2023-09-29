@@ -5,8 +5,10 @@ html,
     box-sizing: border-box;
     margin:0;
     padding:0;
-    background-color: #960018;
     font-family: "martian mono";
+}
+body{
+    background-color: #960018;
 }
 .card{
     width:23%;
@@ -18,6 +20,14 @@ html,
     justify-content: space-around;
     margin:1.3rem 3;
     box-shadow: 7px 7px 7px #000000;
+    padding: 1%;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+}
+.card:hover{
+    transform:scale(1.1);
+    background-color: #ffd300;
+
 }
 .cardimage{
     width:65%;
@@ -25,11 +35,9 @@ html,
 }
 .card-title{
     font-size: 1.7rem;
-    background-color: #59515e;
 }
 .card-descrip{
     font-size: 1.7rem;
-    background-color: #59515e;
 }
 .container{
     display: flex;
