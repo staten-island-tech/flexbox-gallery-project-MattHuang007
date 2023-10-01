@@ -1,58 +1,87 @@
 body,
 html,
-*{
-    font-size:10px;
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-    font-family: "martian mono";
+* {
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "martian mono";
 }
-body{
-    background-color: #960018;
+body {
+  background-color: #960018;
 }
-.card{
-    width:23%;
-    height:30vh;
-    background-color: #59515e;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin:1.3rem 3;
-    box-shadow: 7px 7px 7px #000000;
-    padding: 1%;
-    border-radius: 6px;
-    transition: all 0.2s ease-in-out;
+.card {
+  width: 260px;
+  height: 220px;
+  background-color: #59515e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1.3rem 3;
+  box-shadow: 7px 7px 7px #000000;
+  padding: 1%;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
 }
-.card:hover{
-    transform:scale(1.1);
-    background-color: #ffd300;
-
+.card:hover {
+  transform: scale(1.3);
+  background-color: #ffd300;
+  rotate: 360deg;
+  cursor: crosshair;
+  .popup {
+    display: block;
+  }
+  .popuphl{
+    display: block;
+  }
 }
-.cardimage{
-    width:65%;
-    height:65%;
+.cardimage {
+  width: 65%;
+  height: 65%;
 }
-.card-title{
-    font-size: 1.7rem;
+.card-title {
+  font-size: 1.7rem;
 }
-.card-descrip{
-    font-size: 1.7rem;
+.card-descrip {
+  font-size: 1.5rem;
 }
-.container{
-    display: flex;
-    flex-wrap: wrap;
- margin: 1rem auto;
- justify-content: space-around;
- width: 80vw;
- align-items: center;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+  justify-content: space-around;
+  width: 80vw;
+  align-items: center;
 }
-.header{
-    text-align: center;
-    font-size: 40px;
-    background-color: #F9e29c ; 
-    margin: 2% 20%;
-    border-radius: 6px;
-    padding: 1%  ;
-    box-shadow: 7px 7px 7px #000000;
+.header {
+  text-align: center;
+  font-size: 40px;
+  background-color: #f9e29c;
+  margin: 2% 20%;
+  border-radius: 6px;
+  padding: 1%;
+  box-shadow: 7px 7px 7px #000000;
+}
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+.popup {
+  display: none;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, calc(-50%));
+}
+.popuphl{
+    display: none;
+  width: 100%;
+  height: 65%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, calc(-50%));
 }
