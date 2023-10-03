@@ -11,8 +11,8 @@ body {
   background-color: #960018;
 }
 .card {
-  width: 260px;
-  height: 220px;
+  width: 23%;
+  height: 20rem ;
   background-color: #59515e;
   display: flex;
   flex-direction: column;
