@@ -11,7 +11,7 @@ body {
   background-color: #960018;
 }
 .card {
-  width: 23%;
+  width: 30vh;
   height: 20rem ;
   background-color: #59515e;
   display: flex;
@@ -68,7 +68,7 @@ body {
 .popuphl{
     display: none;
   width: 100%;
-  height: 65%;
+  height: 63%;
   position: absolute;
   left: 50%;
   top: 50%;
