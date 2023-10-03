@@ -29,9 +29,6 @@ body {
   background-color: #ffd300;
   rotate: 360deg;
   cursor: crosshair;
-  .popup {
-    display: block;
-  }
   .popuphl{
     display: block;
   }
@@ -67,14 +64,6 @@ body {
   body {
     background-color: lightgreen;
   }
-}
-.popup {
-  display: none;
-  width: 100%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, calc(-50%));
 }
 .popuphl{
     display: none;
