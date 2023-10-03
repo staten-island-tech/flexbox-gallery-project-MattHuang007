@@ -11,7 +11,7 @@ body {
   background-color: #960018;
 }
 .card {
-  width: 30vh;
+  width: 23%;
   height: 20rem ;
   background-color: #59515e;
   display: flex;
@@ -61,6 +61,9 @@ body {
   box-shadow: 7px 7px 7px #000000;
 }
 @media screen and (max-width: 1000px) {
+  .card{
+    width: 40%;
+  }
   body {
     background-color: lightgreen;
   }
@@ -68,7 +71,7 @@ body {
 .popuphl{
     display: none;
   width: 100%;
-  height: 63%;
+  height: 60%;
   position: absolute;
   left: 50%;
   top: 50%;
