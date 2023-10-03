@@ -60,12 +60,19 @@ body {
   padding: 1%;
   box-shadow: 7px 7px 7px #000000;
 }
+@media screen and (max-width: 1366px) {
+  .card{
+    width: 80%;
+  }
+}
 @media screen and (max-width: 1000px) {
   .card{
-    width: 40%;
+    width: 60%;
   }
-  body {
-    background-color: lightgreen;
+}
+@media screen and (max-width: 414px) {
+  .card{
+    width: 40%;
   }
 }
 .popuphl{
